@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact Us - Grassful Gardening Services</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap');
+
+  :root {
+    --primary-green: #2f7a2e;
+    --secondary-green: #4caf50;
+    --light-green: #dcedc8;
+    --dark-gray: #2e2e2e;
+    --gray: #555;
+    --light-gray: #f5f5f5;
+    --accent-color: #ff9800;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: var(--primary-green);
+    color: white;
+    padding: 1.2rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  header a.home-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 2px solid white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  header a.home-link:hover {
+    background-color: white;
+    color: var(--primary-green);
+  }
+
+  main {
+    max-width: 900px;
+    margin: 2rem auto 3rem auto;
+    background: white;
+    padding: 2rem 2rem 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    color: var(--primary-green);
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    flex: 1 1 auto;
+  }
+
+  h2 {
+    color: var(--secondary-green);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  address {
+    font-style: normal;
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-info {
+    background: var(--light-green);
+    border-left: 6px solid var(--secondary-green);
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+  }
+
+  form {
+    margin-top: 2rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--primary-green);
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    margin-bottom: 1.3rem;
+    border: 1.8px solid var(--secondary-green);
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus {
+    border-color: var(--accent-color);
+    outline: none;
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+
+  button[type="submit"] {
+    background-color: var(--primary-green);
+    border: none;
+    color: white;
+    padding: 0.75rem 2rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-top: 0.75rem;
+  }
+
+  button[type="submit"]:hover {
+    background-color: var(--accent-color);
+  }
+
+  .thank-you-message {
+    display: none;
+    font-size: 1.2rem;
+    color: var(--secondary-green);
+    margin-top: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    main {
+      margin: 1rem;
+      padding: 1.5rem 1rem 2rem 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+      flex: none;
+    }
+
+    header {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+
+    header a.home-link {
+      border: 2px solid white;
+      padding: 0.4rem 1rem;
+      font-size: 1.1rem;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Grassful Gardening Services - Contact Us</h1>
+  <a href="index.html" class="home-link" aria-label="Go to homepage">Home</a>
+</header>
+<main>
+  <h1>Get in Touch with Grassful Gardening Services</h1>
+  <p>Thank you for your interest in Grassful Gardening Services! We are delighted to help you create and maintain the beautiful garden you've always dreamed of. Whether you’re seeking pruning services, landscaping consultations, or regular maintenance, our team is ready to assist you with expert care and personalized attention.</p>
+  <p>Please use the contact information below or fill out the form to reach out. We aim to respond to all inquiries within 24 hours and look forward to working with you.</p>
+
+  <h2>Our Contact Information</h2>
+  <div class="contact-info">
+    <p><strong>Phone:</strong> +1 (855) 442-6667</p>
+    <p><strong>Email:</strong> <a href="mailto:info@greenthumbgardening.com">info@greenthumbgardening.com</a></p>
+    <p><strong>Address:</strong><br />
+      5 Washington Square S<br />
+     New York, NY 10012, USA
+    </p>
+    <p><strong>Office Hours:</strong> Monday to Friday, 8:00 AM - 6:00 PM</p>
+    <p><strong>Saturday:</strong> By appointment only</p>
+    <p><strong>Sunday:</strong> Closed</p>
+  </div>
+
+  <h2>Contact Form</h2>
+  <p>If you have questions, want to request a consultation, or need service estimates, please use the form below. Provide as much detail as possible so we can better assist you.</p>
+
+  <form id="contact-form" aria-label="Contact form">
+    <label for="name">Full Name<span aria-hidden="true" style="color: var(--accent-color);">*</span></label>
+    <input type="text" id="name" name="name" required aria-required="true" placeholder="Your full name" />
+
+    <label for="email">Email Address<span aria-hidden="true" style="color: var(--accent-color);">*</span></label>
+    <input type="email" id="email" name="email" required aria-required="true" placeholder="your.email@example.com" />
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" pattern="[\d\s\+\-\(\)]*" />
+
+    <label for="message">Your Message<span aria-hidden="true" style="color: var(--accent-color);">*</span></label>
+    <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Tell us about your gardening needs..."></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p class="thank-you-message" id="thank-you-message" role="alert" aria-live="polite">Thank you for contacting us! We will get back to you soon.</p>
+
+  <h2>Why Contact Grassful Gardening Services?</h2>
+  <p>We believe that communication is the foundation for a successful gardening project. Contacting us will help you:</p>
+  <ul>
+    <li>Receive expert advice tailored to your garden’s specific needs.</li>
+    <li>Schedule pruning and maintenance services at your convenience.</li>
+    <li>Obtain quotes and service details transparently and promptly.</li>
+    <li>Ask questions about plant care, landscaping ideas, or our service guarantees.</li>
+    <li>Provide feedback on our services to help us continually improve.</li>
+  </ul>
+
+  <h2>Frequently Asked Questions</h2>
+  <p><strong>Q:</strong> How soon can I get a consultation?<br />
+  <strong>A:</strong> We usually schedule consultations within 3 to 5 business days after your inquiry, depending on availability and location.</p>
+
+  <p><strong>Q:</strong> Do you offer emergency pruning services?<br />
+  <strong>A:</strong> Yes, we prioritize urgent pruning requests due to storm damage or safety hazards. Please call us for immediate assistance.</p>
+
+  <p><strong>Q:</strong> Can I get a written quote before committing?<br />
+  <strong>A:</strong> Absolutely. After an initial assessment, we provide a detailed and transparent quote.</p>
+
+  <p><strong>Q:</strong> What areas do you serve?<br />
+  <strong>A:</strong> We offer our services primarily in Green City and nearby suburban regions. Please contact us to confirm if your address is within our service area.</p>
+
+  <p><strong>Q:</strong> How long have you been in business?<br />
+  <strong>A:</strong> Grassful Gardening Services has been proudly serving our community for over ten years with dedication and expertise.</p>
+</main>
+
+<footer>
+   <p><strong>Grassful Gardening Services</strong><br />
+    Email: privacy@greenthumbgardening.com<br />
+    Phone: +1 (855) 442-6667<br />
+    Mailing Address: 5 Washington Square S, New York, NY 10012, USA<br />
+  </p>
+  &copy; 2024 Grassful Gardening Services. All rights reserved.
+</footer>
+
+<script>
+  // Basic client-side form validation and submission simulation
+  const form = document.getElementById('contact-form');
+  const thankYouMsg = document.getElementById('thank-you-message');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    thankYouMsg.style.display = 'block';
+    form.reset();
+    thankYouMsg.scrollIntoView({behavior: 'smooth'});
+  });
+</script>
+</body>
+</html>
